@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ppp"
+    tools:context=".ResetPassActivity">
+
+    <EditText
+        android:id="@+id/resetmail"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="E-mail"
+        android:textColorHint="#9F1BE47C"
+        android:background="#2F6368CF"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/resetbutton"
+        style="@style/Widget.Material3.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2CF1D8D8"
+        android:text="Send"
+        android:textColor="#7CE1EF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

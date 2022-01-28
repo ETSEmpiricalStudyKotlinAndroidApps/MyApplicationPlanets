@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lll"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:hint="E-mail"
+        android:textColorHint="#609C35E5"
+        android:background="#45E77D57"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/paroli"
+        android:hint="Password"
+        android:textColorHint="#609C35E5"
+        android:background="#45E77D57"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.Material3.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:text="Log In"
+        android:textSize="30sp"
+        android:backgroundTint="#2CF1D8D8"
+        android:textColor="#4714AE"/>
+
+    <Button
+        android:id="@+id/register"
+        style="@style/Widget.Material3.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:text="Register"
+        android:textSize="30sp"
+        android:backgroundTint="#2CF1D8D8"
+        android:textColor="#4714AE"/>
+
+    <Button
+        android:id="@+id/forgotpass"
+        style="@style/Widget.Material3.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:text="Forgot Password?"
+        android:textSize="30sp"
+        android:textColor="#4714AE"
+        android:backgroundTint="#2CF1D8D8"/>
+
+
+
+</LinearLayout>

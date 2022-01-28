@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/nnn"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/registemail"
+        android:hint="E-mail"
+        android:textColorHint="#D18CBD"
+        android:background="#0CF1CCEC"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="30sp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:hint="Password"
+        android:textColorHint="#D18CBD"
+        android:background="#0CF1CCEC"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="30sp"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextPassword2"
+        android:hint="Confirm Password"
+        android:textColorHint="#D18CBD"
+        android:background="#0CF1CCEC"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="30sp"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonregister"
+        style="@style/Widget.Material3.Button.UnelevatedButton"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#07B4DBB9"
+        android:text="Registration🚀"
+        android:textColor="#EFECEC"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>
